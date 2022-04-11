@@ -1,10 +1,12 @@
 
 import React,{useState} from 'react'
+import {useNavigate} from 'react-router-dom'
 import { FormContainer, Header, LoginContainer, StyledButton, StyledForm, StyledImg,StyledInput } from './LoginStyles'
 import meal from "../../assets/meal.svg"
 
 
 const Login = () => {
+  const Navigate = useNavigate()
   const [username, setUsername] = useState('Anthony')
   const user= {
     username: `${username}`,
@@ -12,7 +14,7 @@ const Login = () => {
   const loginSubmit  = (e) => {
     e.preventDefault()
     
-    window.location.href = "/home"
+    Navigate("/home")
     sessionStorage.setItem("user",JSON.stringify(user))
   }
   return (
