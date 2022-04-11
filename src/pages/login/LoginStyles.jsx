@@ -62,6 +62,10 @@ export const StyledButton = styled.button`
   border: none;
   cursor: pointer;
   margin: 1rem;
+  :hover {
+    background-color: rgba(0, 173, 181, 0.5);
+    font-size: 2.5rem;
+  }
 `;
 
 export const StyledImg = styled.img`
