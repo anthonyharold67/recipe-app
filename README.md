@@ -18,7 +18,7 @@ Project aims to create a Recipe App.
 │    │       │     ├── Form.jsx
 │    │       │     └── HeaderStyles.jsx
 │    │       └── navbar
-│    │       |      ├── Navbar.js
+│    │       |      ├── Navbar.jsx
 │    │       |      └── NavbarStyles.jsx
 |    |       └── footer
 |    |         ├── Footer.jsx              
