@@ -56,5 +56,5 @@ Project aims to create a Recipe App.
 
 ## Objective
 
-Build a Recipe App using ReactJS.
+Build a Recipe App using ReactJS.<br/>
 [Recipe App](https://anthonyharold-recipeapp.herokuapp.com/)
